@@ -12,20 +12,20 @@ typedef long long  ll;
 
 int main(){
     int N,Q, CanReachX[100010],CanReachY[100010],ra,ca,rb,cb,first,second;
-
-    cin >> N >> Q;
+    //cin >> N >> Q;
+    scanf("%d %d\n",&N,&Q);
     CanReachX[0] = 0; //CanReachX[i] tells us the leftmost column we can reach from ith column
-    cin >> first;
+    scanf("%d",&first);
     for (int i=1;i<N;i++) {
-        cin >> second;
+        scanf("%d",&second);
         if ((second-first) % 2 == 0) CanReachX[i] = CanReachX[i-1];
         else CanReachX[i] = i;
         first = second;
     }
-    cin >> first;
+    scanf("%d",&first);
     CanReachY[0] = 0;  //CanReachY[i] tells us the uppermost row we can reach from ith row
     for (int i=1;i<N;i++){
-        cin >> second;
+        scanf("%d",&second);
         if ((second-first) % 2 == 0) CanReachY[i] = CanReachY[i-1];
         else CanReachY[i] = i;
         first = second;
