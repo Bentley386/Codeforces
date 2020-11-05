@@ -1,0 +1,1 @@
+A collection of exercises I've solved on codeforces.com
