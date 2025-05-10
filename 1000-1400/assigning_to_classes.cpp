@@ -4,6 +4,8 @@
 
 using namespace std;
 
+// https://codeforces.com/contest/1300/problem/B
+
 int main(){
     int t,n,current;
     cin >> t;

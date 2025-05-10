@@ -4,6 +4,8 @@
 
 using namespace std;
 
+// https://codeforces.com/contest/1257/problem/B
+
 void canGet(int x, int y);
 
 int main(){

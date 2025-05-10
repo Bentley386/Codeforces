@@ -3,6 +3,9 @@
 #define INF 2000000000
 #define MOD 1000000007
 using namespace std;
+
+// https://codeforces.com/contest/855/problem/C
+
 typedef long long  ll;
  
 ll dp[100005][11][3]; //[vertex][how many valuable chosen so far][0=value k, 1=value<k,2=value>k]

@@ -2,6 +2,8 @@
 
 using namespace std;
 
+// https://codeforces.com/contest/709/problem/A
+
 int main(){
     int n,b,d;
     int current=0;

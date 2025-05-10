@@ -3,6 +3,9 @@
 #include<algorithm>
 
 using namespace std;
+
+// https://codeforces.com/contest/1342/problem/A
+
 typedef long long int li;
 
 li solve(li x, li y, li a, li b);

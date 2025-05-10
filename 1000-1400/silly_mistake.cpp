@@ -7,6 +7,9 @@
 #include<unordered_set>
 
 using namespace std;
+
+// https://codeforces.com/contest/1253/problem/B
+
 typedef long long  ll;
 
 int main(){

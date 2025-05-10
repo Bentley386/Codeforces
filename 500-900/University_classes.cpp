@@ -4,6 +4,8 @@
 
 using namespace std;
 
+// https://codeforces.com/contest/847/problem/G
+
 int main(){
     int n;
     string sequence;

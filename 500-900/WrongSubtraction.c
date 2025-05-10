@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+// https://codeforces.com/contest/977/problem/A
+
 int main(){
     int n,k;
     scanf("%d %d",&n,&k);

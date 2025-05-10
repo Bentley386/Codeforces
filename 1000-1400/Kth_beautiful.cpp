@@ -6,6 +6,9 @@
 #include<map>
 
 using namespace std;
+
+// https://codeforces.com/contest/1328/problem/B
+
 typedef long long int li;
 
 void solve(li n, li k);

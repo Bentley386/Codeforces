@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <string.h>
 
+// https://codeforces.com/contest/776/problem/A
+
 int main(){
     char victim1[11], victim2[11];
     char murdered[11], replacement[11];

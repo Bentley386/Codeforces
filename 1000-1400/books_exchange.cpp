@@ -4,6 +4,9 @@
 #include<fstream>
 
 using namespace std;
+
+// https://codeforces.com/contest/1249/problem/B1
+
 typedef long long int li;
 
 

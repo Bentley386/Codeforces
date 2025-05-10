@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+// https://codeforces.com/contest/231/problem/A
+
 int main(){
     int n,a,b,c;
     int result=0;

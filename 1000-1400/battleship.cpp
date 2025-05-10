@@ -6,6 +6,9 @@
 #include<map>
 
 using namespace std;
+
+// https://codeforces.com/contest/965/problem/B
+
 typedef long long  ll;
 
 int main(){
